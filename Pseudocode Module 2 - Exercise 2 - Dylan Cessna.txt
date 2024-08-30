@@ -1,0 +1,25 @@
+# Plan: Determine a monthly checking account fee
+# Input: Prompt user for account balance and number of times overdrafted
+# Process: Cumpute the fee, account balance - fee, and new accoutn balance
+# Output: Display the fee that was calculated, the new account balance and thank you message
+
+start
+	# setting up variables
+		accountBalance = 0  # Store account balance
+		overDrawnFee = 0  # Store overdraft fee
+
+	# Input: Promt user for account balance and number of overdrafts
+		accountBalance = float(input("Enter account balance: "))
+		overdrawnCount = int(input("Enter number of overdrafts: "))
+
+	# Process: Calculate fee and new balance
+		overDrawnFee = (accountBalance * 0.01) - (5 * overdrawnCount)
+		newAccountBalance = accountBalance - overDrawnFee
+
+	# Output: Display fee and new balance
+		print(f"Fee: ${overDrawnFee:.2f}")
+		print(f"New Balance: ${newAccountBalance:.2f}")
+
+	# Output: Thank the user
+		print("Thanks for using this program")
+stop

@@ -1,0 +1,33 @@
+# Plan: Produce refridgerator capacity in cubic feet
+# Input: Prompt the user for the refrigerator model name and interior dimensions
+# Process: Calculate the refrigerator capacity in cubic feet
+# Output: Print the refrigerator model name and capacity in cubic feet
+
+start
+	# constants
+		cubic_inches_in_cubic_foot = 1728 # Number of cubic inches in one cubic foot
+
+	# input
+		# prompt user for refridgerator model name
+			model_name = input("Enter the refridgerator model name: ")
+
+		# prompt user for the interior height in inches
+			height = float(input("Enter the interior height in inches: "))
+
+		# prompt user for the interior width in inches
+			width = float(input("Enter the interior width in inches: "))
+
+		# prompt user for the interior depth in inches
+			depth = float(input("Enter the interior depth in inches: "))
+	
+	# process
+		# calculate the volume in cubic inches
+			volume_cubic_inches = height * width * depth
+			
+		# convert the volume into cubic feet
+			volume_cubic_feet = volume_cubic_inches / cubic_inches_in_cubic_foot
+			
+	# output
+		# print the refrigerator model name and capacity in cubic feet
+			print(f"The {model_name} has a capacity of {volume_cubic_feet} cubic feet.")
+stop
