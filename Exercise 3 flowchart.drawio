@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="Zno0w_OhCfos3Ir_NP3P">
+    <mxGraphModel dx="2074" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-5" value="input monthlyPay" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-6" value="input rent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-7" target="CunQNrfY1eaZZSBj9AJV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-7" value="input utilities" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-8" target="CunQNrfY1eaZZSBj9AJV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-8" value="totalBills = rent + utilities + groceryBills" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-9" target="CunQNrfY1eaZZSBj9AJV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-9" value="discretionaryAmount = monthlyPay - totalBills" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-10" target="CunQNrfY1eaZZSBj9AJV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-10" value="output monthlyPay" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-11" target="CunQNrfY1eaZZSBj9AJV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-11" value="output totalBills" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-12" target="CunQNrfY1eaZZSBj9AJV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-12" value="output discrectionaryAmount" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-13" value="stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-14" value="input groceryBills" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-1" target="CunQNrfY1eaZZSBj9AJV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-14" target="CunQNrfY1eaZZSBj9AJV-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-6" target="CunQNrfY1eaZZSBj9AJV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CunQNrfY1eaZZSBj9AJV-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CunQNrfY1eaZZSBj9AJV-5" target="CunQNrfY1eaZZSBj9AJV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

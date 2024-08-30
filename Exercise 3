@@ -1,0 +1,13 @@
+start
+	input monthlyPay
+	input rent
+	input utilities
+	input groceryBills
+
+	totalBills = rent + utilities + groceryBills
+	discretionaryAmount = monthlyPay - totalBills
+
+	output monthlyPay
+	output totalBills
+	output discrectionaryAmount
+stop

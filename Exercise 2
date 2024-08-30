@@ -1,0 +1,5 @@
+start
+	input priceOfRent
+	dailyCostOfRent = priceOfRent / 30
+	output dailyCostOfRent
+stop
